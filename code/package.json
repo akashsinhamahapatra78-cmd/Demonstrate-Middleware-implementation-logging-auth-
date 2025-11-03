@@ -1,0 +1,23 @@
+{
+  "name": "middleware-demo",
+  "version": "1.0.0",
+  "description": "Demonstrate Middleware implementation for logging and Bearer token authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "middleware",
+    "logging",
+    "authentication",
+    "bearer-token",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
