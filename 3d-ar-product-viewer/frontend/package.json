@@ -1,0 +1,27 @@
+{
+  "name": "3d-ar-product-viewer-frontend",
+  "version": "1.0.0",
+  "description": "Interactive 3D/AR product viewer frontend application",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^r128",
+    "a-frame": "^1.4.0",
+    "aframe-ar": "^4.2.5",
+    "axios": "^1.4.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.0",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
